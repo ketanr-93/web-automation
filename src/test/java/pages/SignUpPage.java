@@ -14,7 +14,6 @@ public class SignUpPage {
     }
 
     public String getPageTitle() {
-        String yes="No";
         return driver.getTitle();
 
     }
