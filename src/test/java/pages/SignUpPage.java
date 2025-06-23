@@ -4,7 +4,6 @@ import com.aventstack.extentreports.ExtentTest;
 import org.openqa.selenium.WebDriver;
 import locators.SignUpPageLocators;
 import org.testng.asserts.SoftAssert;
-import locators.SignUpPageLocators;
 
 
 public class SignUpPage {
@@ -15,7 +14,9 @@ public class SignUpPage {
     }
 
     public String getPageTitle() {
+        String yes="No";
         return driver.getTitle();
+
     }
 
     public void navigateToSignUpPage() {
