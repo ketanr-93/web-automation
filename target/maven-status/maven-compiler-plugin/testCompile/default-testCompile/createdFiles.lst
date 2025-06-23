@@ -1,0 +1,10 @@
+base\BaseTest.class
+tests\HomePageTest.class
+pages\HomePage.class
+utils\TestDataLoader.class
+locators\HomePageLocators.class
+pages\SignUpPage.class
+tests\SignUpPageTest.class
+utils\ExtentReportManager.class
+locators\SignUpPageLocators.class
+utils\ScreenshotUtil.class
